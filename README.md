@@ -1,6 +1,7 @@
 # Load_Balancing_Simulation
 ### This Simulation software Demonstrates how a load balancer connected to web servers reacts to multiple connection requests from various computers
 ### This Simulation exhibits efficient scaling and load distribution that is implemented in enterprise and cloud networks
+#### Resources: Python, Object Oriented Programming
 
 &nbsp;
 #### Run the program by clicking this link!: https://loadbalancingsimulation.nwaiwumunachims.repl.run/
