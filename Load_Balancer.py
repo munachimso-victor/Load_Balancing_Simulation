@@ -47,11 +47,11 @@ class LoadBalancing:
         server = self.random_selection_of_server()
         connection_load = self.load_generator()
 
-        if server.load() > 60:
+        while server.load() > 60:
             self.ensure_availability()
             server = self.random_selection_of_server()
 
-        if server.load() + connection_load > 100:
+        while server.load() + connection_load > 100:
             self.ensure_availability()
             server = self.random_selection_of_server()
 
